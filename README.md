@@ -4,7 +4,7 @@
 
 ### installation
 * download the repo
-* create a virtualenv in the repo
+* create a virtualenv in the cloned repo/directory
 * activate the enviroment
 * run pip install -r requirements.txt
 
