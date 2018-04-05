@@ -12,7 +12,7 @@
 run the command 
 
 ```
-    python combiner.py 'path to your excel file'  'combined filename'
+    python combiner.py 'path to your excel files'  'combined filename'
 
 ```
 
