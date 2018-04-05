@@ -7,7 +7,7 @@ print("Please Wait ........")
 excel_names = os.listdir(sys.argv[1])
 # check if its not a windows machine
 if not os.name=='nt':
-	excels = [pd.ExcelFile('{}/'.format(sys.argv[1])+'\\'+name) for name in excel_names]
+	excels = [pd.ExcelFile('{}/'.format(sys.argv[1])+'/'+name) for name in excel_names]
 else:
 	excels = [pd.ExcelFile('{}\\'.format(sys.argv[1])+'\\'+name) for name in excel_names]
 frames = [x.parse(x.sheet_names[0],header=None,index_col=None) for x in excels]
