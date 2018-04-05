@@ -9,7 +9,14 @@
 * run pip install -r requirements.txt
 
 ### running the file
-run the command python combiner.py 'path to your excel file'  'combined filename'
+run the command 
+
+```
+    python combiner.py 'path to your excel file'  'combined filename'
+
+```
+
+
 
 ### Things to remember
 when running in a windows enviroment, you need to add a extra '\' to your path
