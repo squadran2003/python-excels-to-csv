@@ -19,8 +19,13 @@ run the command
 
 
 ### Things to remember
-when running in a windows enviroment, you need to add a extra '\' to your path
-example :  C:\Users\cormacka\Desktop should be passed in as : C:\\Users\\cormacka\\Desktop
+when running in a windows enviroment, you need to add a extra backslash to your path
+
+```
+
+    example :  C:\Users\cormacka\Desktop should be passed in as : C:\\Users\\cormacka\\Desktop
+
+```
 
 ### contribution
 please feel free to contribute, developers of all levels welcome
